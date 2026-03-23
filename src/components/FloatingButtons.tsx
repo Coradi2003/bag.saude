@@ -9,7 +9,7 @@ const FloatingButtons = () => {
         href="https://wa.me/5541999509711"
         target="_blank"
         rel="noopener noreferrer"
-        className="floating-btn bottom-6 right-6 w-16 h-16 animate-pulse-glow"
+        className="floating-btn bottom-6 right-6 w-16 h-16 md:animate-pulse-glow"
         style={{ background: "linear-gradient(135deg, hsl(142 70% 40%), hsl(142 60% 48%))" }}
         aria-label="WhatsApp"
         whileHover={{ scale: 1.2, rotate: 10 }}
@@ -25,7 +25,7 @@ const FloatingButtons = () => {
         href="https://instagram.com/beg.saude"
         target="_blank"
         rel="noopener noreferrer"
-        className="floating-btn bottom-6 right-24 w-12 h-12"
+        className="floating-btn bottom-6 right-24 w-12 h-12 hidden md:flex"
         style={{ background: "linear-gradient(135deg, hsl(330 80% 55%), hsl(30 90% 55%))" }}
         aria-label="Instagram"
         whileHover={{ scale: 1.2, rotate: -10 }}

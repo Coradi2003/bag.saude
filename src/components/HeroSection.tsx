@@ -25,13 +25,13 @@ const HeroSection = () => {
       
       {/* Decorative shapes */}
       <motion.div
-        className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-10"
+        className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-10 hidden md:block"
         style={{ background: "radial-gradient(circle, hsl(120 55% 42%), transparent 70%)" }}
         animate={{ x: [100, 140, 100], y: [-100, -140, -100], scale: [1, 1.1, 1] }}
         transition={{ duration: 14, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div
-        className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full"
+        className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full hidden md:block"
         style={{ background: "radial-gradient(circle, hsl(180 45% 50%), transparent 70%)", opacity: 0.08 }}
         animate={{ x: [-80, -120, -80], y: [80, 120, 80], scale: [1, 1.15, 1] }}
         transition={{ duration: 16, repeat: Infinity, ease: "easeInOut" }}

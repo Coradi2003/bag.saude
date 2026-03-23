@@ -18,7 +18,7 @@ const Particles = () => {
   }));
 
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
       {/* Floating orbs */}
       {orbs.map((o) => (
         <motion.div
