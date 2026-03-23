@@ -10,7 +10,7 @@ const steps = [
 
 const ComoFunciona = () => {
   return (
-    <section id="como-funciona" className="section-padding relative">
+    <section id="como-funciona" className="section-padding relative" style={{ background: "hsl(var(--beg-light))" }}>
       <div className="container mx-auto max-w-5xl">
         <AnimatedSection>
           <div className="text-center mb-4">

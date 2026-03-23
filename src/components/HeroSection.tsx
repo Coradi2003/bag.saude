@@ -145,7 +145,7 @@ const HeroSection = () => {
 
       <motion.a
         href="#quem-somos"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/60 hover:text-white transition-colors"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/60 hover:text-white transition-colors cursor-pointer"
         animate={{ y: [0, 15, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
