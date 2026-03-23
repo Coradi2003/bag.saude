@@ -112,7 +112,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="relative hidden lg:block"
+            className="relative block"
           >
             <div className="relative">
               <motion.div
@@ -145,8 +145,9 @@ const HeroSection = () => {
 
       <motion.a
         href="#quem-somos"
-        className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/50 hover:text-white transition-colors cursor-pointer"
-        animate={{ y: [0, 10, 0] }}
+        className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/50 hover:text-white transition-colors cursor-pointer w-fit"
+        initial={{ x: "-50%" }}
+        animate={{ y: [0, 10, 0], x: "-50%" }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
         <span className="text-[10px] md:text-xs uppercase tracking-widest mb-1 md:mb-2 font-semibold">Deslize</span>
