@@ -12,7 +12,7 @@ const services = [
 
 const ServicosSection = () => {
   return (
-    <section id="servicos" className="section-padding relative" style={{ background: "var(--gradient-light-bg)" }}>
+    <section id="servicos" className="section-padding relative">
       <div className="container mx-auto max-w-6xl">
         <AnimatedSection>
           <div className="text-center mb-4">

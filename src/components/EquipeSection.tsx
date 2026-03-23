@@ -39,7 +39,7 @@ const team = [
 
 const EquipeSection = () => {
   return (
-    <section id="equipe" className="section-padding relative overflow-hidden" style={{ background: "var(--gradient-light-bg)" }}>
+    <section id="equipe" className="section-padding relative overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <AnimatedSection>
           <div className="text-center mb-4">

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import logoBeg from "@/assets/logo-beg.jpeg";
 import equipeHero from "@/assets/equipe-hero.jpg";
 import Particles from "./Particles";
-import { Heart, Shield, Award, Home } from "lucide-react";
+import { Heart, Shield, Award, Home, ChevronDown } from "lucide-react";
 
 const badges = [
   { icon: Heart, text: "Atendimento humanizado" },
@@ -142,6 +142,16 @@ const HeroSection = () => {
           </motion.div>
         </div>
       </div>
+
+      <motion.a
+        href="#quem-somos"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/60 hover:text-white transition-colors"
+        animate={{ y: [0, 15, 0] }}
+        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <span className="text-xs uppercase tracking-widest mb-2 font-semibold">Deslize</span>
+        <ChevronDown className="w-8 h-8" />
+      </motion.a>
     </section>
   );
 };

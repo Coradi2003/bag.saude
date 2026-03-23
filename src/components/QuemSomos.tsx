@@ -3,7 +3,7 @@ import { Heart, Users, Sparkles } from "lucide-react";
 
 const QuemSomos = () => {
   return (
-    <section id="quem-somos" className="section-padding relative overflow-hidden" style={{ background: "var(--gradient-light-bg)" }}>
+    <section id="quem-somos" className="section-padding relative overflow-hidden">
       {/* Decorative */}
       <div className="absolute top-0 right-0 w-72 h-72 rounded-full opacity-5"
         style={{ background: "radial-gradient(circle, hsl(120 55% 42%), transparent 70%)" }} />
