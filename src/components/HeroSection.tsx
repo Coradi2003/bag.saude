@@ -145,12 +145,12 @@ const HeroSection = () => {
 
       <motion.a
         href="#quem-somos"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/60 hover:text-white transition-colors cursor-pointer"
-        animate={{ y: [0, 15, 0] }}
+        className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center justify-center text-white/50 hover:text-white transition-colors cursor-pointer"
+        animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
-        <span className="text-xs uppercase tracking-widest mb-2 font-semibold">Deslize</span>
-        <ChevronDown className="w-8 h-8" />
+        <span className="text-[10px] md:text-xs uppercase tracking-widest mb-1 md:mb-2 font-semibold">Deslize</span>
+        <ChevronDown className="w-6 h-6 md:w-8 md:h-8" />
       </motion.a>
     </section>
   );
